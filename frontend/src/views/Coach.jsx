@@ -21,7 +21,7 @@ import { Section, Row, Button, TextArea, Switch, SelectRow } from '../components
    switch that turns it off. Deliberately one screen — a feature that edits your training plan
    should not scatter its controls, least of all the ones that stop it. */
 
-const GOALS = ['strength', 'muscle', 'general fitness', 'fat loss', 'endurance']
+const GOALS = ['strength', 'power', 'muscle', 'general fitness', 'fat loss', 'endurance']
 
 // Rendered from the same list the server builds payloads from (GET /api/coach/disclosure),
 // so the promise on screen cannot drift from what actually leaves the box.

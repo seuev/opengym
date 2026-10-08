@@ -18,6 +18,7 @@ import { Button, TextArea, Segmented } from '../components/ui.jsx'
 
 const GOALS = [
   ['strength', 'Get stronger'],
+  ['power', 'Power & athletic'],
   ['muscle', 'Build muscle'],
   ['general', 'General fitness'],
   ['fatloss', 'Lose fat'],
